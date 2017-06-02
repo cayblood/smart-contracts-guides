@@ -5,11 +5,15 @@
 
 3. (OSX Only) Install [Homebrew](https://brew.sh/). This is a convenient tool for installing many different Unix utilities on your computer.
 
-  `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
   
 4. Install [node version manager](https://github.com/creationix/nvm). This makes it easier to manage multiple NodeJS projects on the same machine.
 
-  `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash`
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+```
 
 5. Close that terminal and open a new one so you get the nvm settings.
 
@@ -22,12 +26,18 @@ nvm install <latest_version>
 
 7. Activate the node version you just installed.
 
-  `nvm use <version>`
+```
+nvm use <version>
+```
 
 8. Install truffle.
 
-  `npm install -g truffle`
+```
+npm install -g truffle
+```
 
 9. Install the ethereum test client.
 
-  `npm install -g ethereumjs-testrpc`
+```
+npm install -g ethereumjs-testrpc
+```
