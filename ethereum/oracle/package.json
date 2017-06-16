@@ -1,0 +1,16 @@
+{
+  "name": "ico_example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bn.js": "^4.11.6",
+    "ethjs-provider-http": "^0.1.6",
+    "ethjs-query": "^0.2.6"
+  }
+}
