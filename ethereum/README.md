@@ -41,3 +41,18 @@ npm install -g truffle
 ```
 npm install -g ethereumjs-testrpc
 ```
+
+## Running the tests in a project
+
+1. Go to the project root
+2. Run testrpc to start up a test blockchain
+
+```
+testrpc
+```
+
+3. (in another terminal) Run the unit tests
+
+```
+truffle test
+```
